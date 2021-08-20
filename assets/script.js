@@ -3,9 +3,9 @@ const validador = () => {
   let claveps = document.getElementById("contraseña").value;
   if (claveUs == "a" && claveps == "a") {
     location.href =
-      "file:///C:/Users/User/Desktop/clase%20mean/IniciodeSesi%C3%B3n/consulta.html";
+      "file:///C:/Users/User/Desktop/clase%20mean/ejercicioApi/consulta.html";
   } else {
-    console.log("no aceptado");
+   alert("Inválido, Verifique su usuario y contraseña")
   }
 };
 

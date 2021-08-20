@@ -1,0 +1,5 @@
+.fondoSesion {
+  background-image: url(./img/fondoIncio.jpg);
+  background-size: cover; /*colocar toda la imagen en el div*/
+  background-repeat: no-repeat;
+}
